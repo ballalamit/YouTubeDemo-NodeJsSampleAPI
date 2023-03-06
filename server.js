@@ -3,7 +3,7 @@ const app = express();
 
 app.get('/', (req, res) => {
     console.log('App called');
-    res.status(200).json({ 'Message': 'Hello Amit its Working' });
+    res.status(200).json({ 'Message': 'Hello Amit its Working , helm upgrade' });
 })
 
 
