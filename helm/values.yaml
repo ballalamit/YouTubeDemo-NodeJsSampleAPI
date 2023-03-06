@@ -4,16 +4,16 @@
 
 application:
   author: roushan
-  name: sampleapi #Aadhar Vault Manager
   type: api
+  name: sampleapp
 
 replicaCount: 1
 
 image:
-  repository: amitacr1017.azurecr.io
+  repository: amit1017.azurecr.io
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1"
+  tag: latest
 
 imagePullSecrets: []
 nameOverride: ""
